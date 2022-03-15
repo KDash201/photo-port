@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/prefer-screen-queries */
 // __tests__/Gallery.test.js
 import React from "react";
 import { render, cleanup } from "@testing-library/react";
