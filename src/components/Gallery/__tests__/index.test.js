@@ -22,7 +22,7 @@ describe("Gallery component", () => {
   });
 });
 
-it("renders", () => {
+it("displays text", () => {
   const { getByTestId } = render(<Gallery currentCategory={portrait} />);
   expect(getByTestId("h1tag")).toHaveTextContent("Portraits");
 });
